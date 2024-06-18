@@ -10,7 +10,8 @@ def asignar_producto(nombre,categoria,precio,stock):
     'Stock': stock
 }
     return productos
-
+input('Bienvenido al gestor de inventario!\n'
+      'Presione Enter para continuar...\n')
 while True:
     while True:
         print('[1] Registrar producto\n'
